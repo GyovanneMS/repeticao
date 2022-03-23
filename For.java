@@ -4,12 +4,14 @@
 class For{
     public static void main(String args[]){
 
-        for(int i=1; i <= 13; i=i+3){
-            if(i == 13){
-                System.out.print(i + ".");
+        int n = 1;
+
+        for(int i=1; i < 300; i=i+3){
+            if(i == 298){
+                System.out.print("100°" + i + ".");
             }
             else{
-            System.out.print(i + ",");
+            System.out.print( n++ + "°" + i + ", ");
             }
         }
     }
