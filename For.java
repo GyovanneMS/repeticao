@@ -6,7 +6,7 @@ class For{
 
         int n = 1;
 
-        for(int i=1; i < 300; i=i+3){
+        for(int i=1; i >= 298 ; i=i+3){
             if(i == 298){
                 System.out.print("100°" + i + ".");
             }
